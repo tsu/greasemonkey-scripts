@@ -23,7 +23,7 @@
       yellow: '#DBDB57',
       orange: '#E09952'
     };
-	  jQuery.noConflict(true);
+    jQuery.noConflict(true);
     checkForNewCards();
     function checkForNewCards() {
       $('div.list-card').each(function(index, card) {
